@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
-gem 'puma',         '3.12.6'
+gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
 gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
-gem 'jbuilder',     '2.6.4'
+gem 'jbuilder',     '2.7.0'
 
 # 開発かつ、テストの時に使うものを記載
 # HerokuではSQLiteがサポートされていないため、リスト 1.5の変更を行って、sqlite3 gemが本番環境に導入されないようにしておきます。
